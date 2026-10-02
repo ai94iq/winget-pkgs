@@ -1,0 +1,15 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ai94iq.ClipShelf
+PackageVersion: 0.3.1
+InstallerType: wix
+Scope: machine
+UpgradeBehavior: install
+ProductCode: '{FC126A28-0525-45FE-AEF3-BB7A87B23F4D}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/ai94iq/ClipShelf/releases/download/v0.3.1/ClipShelf-Setup-0.3.1.msi
+  InstallerSha256: D48C365B818DDCE54FF7316ED68734D61203B3EC440138CD58380277BA3911CA
+ManifestType: installer
+ManifestVersion: 1.6.0
